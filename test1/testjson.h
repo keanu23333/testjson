@@ -14,7 +14,7 @@ enum{
   TEST_PARSE_ROOT_NOT_SINGULAR
 };
 
-int test_parsr(test_value* v, const char* json);
+int test_parse(test_value* v, const char* json);
 
 test_type test_get_type(const test_value* v);
 
